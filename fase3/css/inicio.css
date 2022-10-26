@@ -2,7 +2,7 @@ header{
     background-color: #48cae4;
     color:#03045e;
     text-decoration: none;
-    width: 100%;
+    width: 98.5%;
     height: 100px;
     padding: 10px;
     display: flex;
@@ -117,14 +117,86 @@ footer{
 nav{
   border-radius: 10px;
 }
-
+#recursoMmedia{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height:100%; 
+}
 #video1{
-  style="display: flex;"
-  justify-content: center;
+  width: 85%;
+  height:85%; 
 }
 
 #autor{
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#etiquetas1,#etiquetas3,#etiquetas5,#Atributo3,#Atributo4,#Atributo2 {
+  margin: 10px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 1240px) {
+  #iframefb {
+    width: 230px;
+  }
+  #etiquetas1{
+    height:7.1%;
+  }
+  
+  #etiquetas3{
+    height:9%;
+  }
+  
+  #etiquetas5{
+    height:10%;
+  }
+  
+  #Atributo3{
+    height: 7%;
+  }
+  
+  #Atributo4{
+    height: 5.7%;
+  }
+  
+  #Atributo2{
+    height: 10%;
+  }  
+}
+
+@media only screen and (min-width: 1241px) and (max-width: 1920px) {
+  #iframefb {
+    width: 340px;
+  }
+
+  #etiquetas1{
+    height:12%;
+  }
+  
+  #etiquetas3{
+    height:16%;
+  }
+  
+  #etiquetas5{
+    height:18%;
+  }
+  
+  #Atributo3{
+    height: 12%;
+  }
+  
+  #Atributo4{
+    height: 10%;
+  }
+  
+  #Atributo2{
+    height: 17%;
+  }  
 }

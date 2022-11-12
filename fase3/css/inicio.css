@@ -23,11 +23,16 @@ header{
     margin-bottom: 10px;
 }
 
-#banerfb {
-  justify-content: left;
-  width: 20%;
+#asidetwitter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 28%;
   background: #023e8a;
   border-radius: 10px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 0.1%;
 
 }
 
@@ -38,7 +43,7 @@ header{
   width:70%;
   height:auto;
   background-color: #ffb703;
-  margin-left: 95px;
+  margin-left: 20px;
   padding: 10px;
   border-radius: 10px;
   font-family: Arial, Helvetica, sans-serif;
@@ -138,24 +143,30 @@ nav{
 }
 
 #etiquetas1,#etiquetas3,#etiquetas5,#Atributo3,#Atributo4,#Atributo2 {
-  margin: 10px;
+  margin: 1%;
+  border-radius: 3px;
+  align-self: center;
 }
 
 
-@media only screen and (min-width: 320px) and (max-width: 1240px) {
-  #iframefb {
-    width: 230px;
+@media only screen and (min-width: 320px) and (max-width: 1279px) {
+  #timeline, #twitter-widget-0 {
+    width: 320px;
+    align-self: center;
   }
   #etiquetas1{
-    height:7.1%;
+    height:9.1%;
+    width: 90%;
   }
   
   #etiquetas3{
     height:9%;
+    width: 60%;
   }
   
   #etiquetas5{
     height:10%;
+    width: 80%;
   }
   
   #Atributo3{
@@ -171,9 +182,10 @@ nav{
   }  
 }
 
-@media only screen and (min-width: 1241px) and (max-width: 1920px) {
-  #iframefb {
-    width: 340px;
+@media only screen and (min-width: 1280px) and (max-width: 1920px) {
+  #timeline, #twitter-widget-0 {
+    width: 500px;
+    align-self: center;
   }
 
   #etiquetas1{

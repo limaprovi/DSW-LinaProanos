@@ -1,9 +1,13 @@
+#compInicio{
+  font-size: var(--bs-nav-link-font-size);
+}
+
 header{
     background-color: #48cae4;
     color:#03045e;
     text-decoration: none;
     width: 98.5%;
-    height: 100px;
+    height: 120px;
     padding: 10px;
     display: flex;
     border-radius: 10px;
@@ -50,62 +54,6 @@ header{
 
 }
 
-ul , ol{
-    list-style: none;
-    display: inline-block;
-}
-
-.menu{
-  padding: 0px 20px;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  border-radius: 10px;
-}
-
-.menu > li{
-    float: left;
-}
-
-.menu > li a {
-    background-color: #48cae4;
-    color:#03045e;
-    text-decoration: none;
-    padding: 20px 80px;
-    display: block;
-    border-top-left-radius: 10px 10px;
-}
-
-.menu > li a:hover{
-    background-color: #0096c7;
-
-}
-.menu > li ul{
-    list-style: none;
-    display: none;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    min-width: 140px;
-    list-style: none;
-}
-
-.menu li:hover>ul{
-  display: block;
-}
-
-.menu li ul li {
-    position: relative;
-}
-
-.menu li ul li ul{
-  right: 140px;
-  list-style: none;
-}
 
 footer{
   background: #023e8a;
@@ -119,9 +67,6 @@ footer{
   align-items: center; 
   justify-content: center; }
 
-nav{
-  border-radius: 10px;
-}
 #recursoMmedia{
   display: flex;
   flex-direction: column;
@@ -142,6 +87,11 @@ nav{
   text-align: center;
 }
 
+#fotoAutor{
+  width:20%;
+  border-radius: 10px;
+}
+
 #etiquetas1,#etiquetas3,#etiquetas5,#Atributo3,#Atributo4,#Atributo2 {
   margin: 1%;
   border-radius: 3px;
@@ -155,6 +105,7 @@ nav{
     height: 700px !important;
     align-self: center;
   }
+
   #etiquetas1{
     height:9.1%;
     width: 90%;
